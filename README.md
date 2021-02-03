@@ -11,4 +11,4 @@ This repository contains an implementation of the Metropolis-Hastings algorithm 
 
 Finally, for those who want further background and a more complete discussion on parallel computing in Python or Markov chain Monte Carlo (MCMC) methods such as the Metropolis Hastings algorithm, please refer to the included full report **MH-Parallel-Report.pdf**.
 
-This project was completed in collaboration with Anil Bhattarai, Priyanshi Gupta, and Yufeng Fu, as part of LSE ST444, a graduate-level Computational Data Science course in LSE's Department of Statistics. Thanks very much to my fellow group members for all of their hard work in putting this together.
+This project was completed in collaboration with Anil Bhattarai, Priyanshi Gupta, and Yufeng Fu as part of LSE ST444, a graduate-level Computational Data Science course in LSE's Department of Statistics. Thanks very much to my fellow group members for all of their hard work in putting this together.
