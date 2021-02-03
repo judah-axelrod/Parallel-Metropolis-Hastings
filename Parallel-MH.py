@@ -154,11 +154,7 @@ if __name__ == "__main__":
     plt.suptitle("Histograms for Posterior Density Functions of $\mu$ and $\sigma$")
     plt.show()
 
-    # Summary output  
-    np.random.seed(444)
-    results = MH_sampler(samples, data, mu_obs, sigma_obs)
+    # Summary output
     print("{} samples".format(samples))
     print("Observed mu = {:.3f}, observed sigma = {:.3f}".format(mu_obs, sigma_obs))
     print("Burn-in = {}".format(burnin))
-    print("Posterior averages: mu = {:.3f}, sigma = {:.3f}".format(np.mean(results[0][0][burnin:]),
-                                                               np.mean(results[0][1][burnin:])))
